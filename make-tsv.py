@@ -12,6 +12,9 @@
 # . /opt/omero/server/venv3/bin/activate
 # python upload_attachments.py
 
+import csv
+
+rows = []
 match = 0
 full_match = 0
 match_count = 0
@@ -23,7 +26,7 @@ dataset_names = ["C127_H4K5ac", "C127_H3K36me2", "C127_RNAP-S2P", "C127_H3K4me2"
                  "C127_30min-BrUTP", "C127_H3K9me3", "C127_H4K20me3", "C127_hnRNP", "HeLa_Rad21",
                  "HeLa_H3K4me3", "HeLa_H3K9me3", "HeLa_H3K27me3", "HeLa_hnRNPC", "HeLa_RNAP-S2P", "HeLa_Scc1", "HeLa_RNAPIIS2P"]
 
-def process_line(line, count, match):
+def process_line(line, count, match, rows):
     # /uod/idr/filesets/idr0082-pennycuick-lesions/20200417-ftp/S1_HandE.ndpi.ndpa
     # /uod/idr/filesets/idr0082-pennycuick-lesions/20200417-ftp/S2_HandE.ndpi.ndpa
     parts = line.split('/')
@@ -36,8 +39,13 @@ def process_line(line, count, match):
             if (dataset_name_parts[1] in line):
                 match = 1
                 print (dataset_name)
-    return match
+                rows.append(['Dataset:name:'+dataset_name, line])
+    return match, dataset_name
 
+def write_tsv(rows):
+    with open('experimentA/idr0086-experimentA-filePaths.tsv', mode='w') as tsv_file:
+        tsv_writer = csv.writer(tsv_file, delimiter='\t')
+        tsv_writer.writerows(rows)
 
 with open(attachment_file) as fp:
     line = fp.readline().strip()
@@ -47,7 +55,7 @@ with open(attachment_file) as fp:
 
         #print("Line %d" % count)
         #print (line)
-        match = process_line(line, count, 0)
+        (match,dataset_name) = process_line(line, count, 0, rows)
         line = fp.readline().strip()
         if (match == 1):
             match_count += 1
@@ -59,5 +67,5 @@ with open(attachment_file) as fp:
 #print (match_count)
 #print ("no match_count")
 #print (no_match_count)
-
+write_tsv(rows)
 
