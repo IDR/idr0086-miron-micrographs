@@ -39,6 +39,10 @@ def process_line(line, count, match, rows):
             if (dataset_name_parts[1] in line):
                 match = 1
                 print (dataset_name)
+                if (dataset_name == "C127_SCC1"):
+                    dataset_name = "C127_Scc1"
+                if (dataset_name == "HeLa_RNAPIIS2P"):
+                    dataset_name = "HeLa_RNAP-S2P"
                 rows.append(['Dataset:name:'+dataset_name, line])
     return match, dataset_name
 
