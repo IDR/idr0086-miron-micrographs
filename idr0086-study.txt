@@ -1,0 +1,280 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+				
+# STUDY DESCRIPTION SECTION				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details				
+				
+Comment[IDR Study Accession]	idr0086			
+Study Title	Chromatin arranges in chains of mesoscale domains with nanoscale functional topography independent of cohesin			
+Study Type	micrograph			
+Study Type Term Source REF	CHMO			
+Study Type Term Accession	CHMO_0001824			
+Study Description	Three-dimensional (3D) chromatin organization plays a key role in regulating mammalian genome function, however many of its physical features at the single-cell level remain underexplored. Here we use 3D super-resolution and scanning electron microscopy to analyze structural and functional nuclear organization in somatic cells. We identify linked chromatin domains (CDs) composed of irregular ~200-300-nm-wide aggregates of nucleosomes that can overlap with individual topologically associating domains and are distinct from a surrounding RNA-populated interchromatin region. High-content mapping uncovers confinement of cohesin and active histone modifications to surfaces and enrichment of repressive modifications towards the core of CDs in both hetero- and euchromatic regions. This nanoscale functional topography is temporarily relaxed in postreplicative chromatin, but remarkably persists after ablation of cohesin. Our findings establish CDs as physical and functional modules of mesoscale genome organization.		 
+Study Key Words	chromatin	micrograph
+Study Organism	Mus musculus	Homo sapiens		
+Study Organism Term Source REF	NCBITaxon			
+Study Organism Term Accession	10090	9606				
+Study Experiments Number	4			
+Study External URL	
+Study BioImage Archive Accession			
+Study Public Release Date				
+				
+# Study Publication				
+Study PubMed ID				
+Study Publication Title	Chromatin arranges in chains of mesoscale domains with nanoscale functional topography independent of cohesin			
+Study Author List	Miron E, Oldenkamp R, Brown JM, Pinto DMS, Xu CS, Faria AR, Shaban HA, Rhodes JDP, Innocent C, de Ornellas S, Hess HF, Buckle V, Schermelleh L			
+Study PMC ID				
+Study DOI				
+				
+# Study Contacts				
+Study Person Last Name	Miron	Schermelleh		
+Study Person First Name	Ezequiel	Lothar		
+Study Person Email	e.miron@nki.nl	lothar.schermelleh@bioch.ox.ac.uk		
+Study Person Address	Netherlands Cancer Institute (NKI) Dept B4 - Gene Regulation. Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands	Department of Biochemistry, University of Oxford, Oxford OX1 3QU, United Kingdom		
+Study Person ORCID	0000-0001-9689-8342	0000-0002-1612-9699		
+Study Person Roles	First Author	Senior Author		
+				
+# Study License and Data DOI				
+Study License	CC BY 4.0		
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Study Copyright	Lothar Schermelleh and Ezequiel Miron			
+Study Data Publisher	University of Dundee			
+Study Data DOI				
+				
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+				
+# EXPERIMENT SECTION				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
+				
+Experiment Number	1			
+Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentA	
+Experiment Sample Type	cell		
+Experiment Description	Micrographs of G1 interphase chromatin of C127 cells with super resolved immunofluorescence (IF) signals of over 16 epigenetic markers (Nascent RNA, Elongating RNAPolII, CTCF, Cohesin subunits, SAF-A and histone modifications such as H3K4me3, H3K27me3, H3K9me3, etc), all from commercially available antibodies.	
+Experiment Size	5D Images: 575	Average Image Dimension (XYZCT): 512,512,45,2,1	Total Tb: ~0.03	
+Experiment Example Images	201712-13_H3K4me3488_DAPI_514_04_FUS_SIR_ALN_THR.tif			
+Experiment Imaging Method	structured illumination microscopy (SIM)		
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Comments	3D-SIM, super resolution microscopy			
+				
+# assay files				
+Experiment Assay File	idr0086-experimentA-assays.txt			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions	To identify cells not in S-phase 10 uM 5-ethenyl-deoxyuridine (EdU) was added 15-30 min before fixation. G1 cells were identified by being negative for EdU pulse labelling and having a smaller nuclear size compared to G2 cells.			
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description	All SIM data was routinely and meticulously quality controlled for effective resolution and absence of artifacts using SIMcheck.		
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	Mouse mammary gland C127 and human cervical cancer HeLa H2B-GFP cells were grown in Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% FBS, 1% penicillin and streptomycin. Cells were incubated at 37°C, 5% CO2 in a humidified incubator. At 90% confluence cells were trypsinized with 0.05-0.25% Trypsin in PBS or 1x trypsin replacement solution (TrypLE express, Gibco) and passaged to a new culture dish at appropriate dilutions (1:5-1:12 every 2-3 days).	Cells were fixed in 2% formaldehyde/PBS (Sigma, #cat F8775) for 10 min, washed with 0.02% Tween-20/PBS (PBST) and permeabilized in 0.1- 0.5% Triton-X-100/PBS. Coverslips were washed three times with PBST and incubated for 30 min in MaxBlock (Active Motif, cat# 15252). Cells were stained with primary antibodies against the protein of interest, washed three times with PBST and stained with fluorescently-labelled secondary antibodies. After washing, cells were post-fixed in 4% formaldehyde/PBS for 10 min and counterstained using 1-2 ug/?L DAPI or 1 ?M SYTOX Green for 10 min. (Incubation with 1-10 U RNAse I/PBS prior to SYTOX counterstaining was Performed).	3D-SIM images were acquired with a DeltaVision OMX V3 Blaze system (GE Healthcare) equipped with a 60x/1.42 NA PlanApo oil immersion objective (Olympus), pco.edge 5.5 sCMOS cameras (PCO) and 405, 488, 593 and 640 nm lasers. Spherical aberration was minimized using immersion oil with RI 1.514 for sample acquisition. The raw data was computationally reconstructed with SoftWoRx 6.5.2 (GE Healthcare) using channel-specific OTFs recorded using immersion oil with RI 1.512, and Wiener filter settings between 0.002-0.006 to generate 3D stacks of 115 nm (488 nm) or 130 nm (592 nm) lateral and approximately 350 nm axial resolution.	
+
+				
+# Phenotypes				
+Phenotype Name	G1 interphase			
+Phenotype Description	Cell lacked incorporation of EdU			
+Phenotype Score Type	manual			
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name	G1 phase			
+Phenotype Term Accession	GO_0051318		 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)	
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description	
+			
+				
+#  Processed Data Files				
+Processed Data File Name				
+Processed Data File Format	tab-delimited text			
+Processed Data File Description				
+Processed Data Column Name				
+Processed Data Column Type				
+Processed Data Column Annotation Level				
+Processed Data Column Description		
+Processed Data Column Link To Assay File				
+				
+				
+				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
+				
+Experiment Number	2			
+Comment[IDR Experiment Name]	idr0081-georgi-adenovirus/screenB	
+Experiment Sample Type	cell		
+Experiment Description	Micrographs of a subset of the markers in experiment A with chromatin of different phenotype due to different stages of cell cycle: early, mid and late S phase as identified by EdU incorporation in nascent replicating regions.  			
+Experiment Size	5D Images: 945	Average Image Dimension (XYZCT): 512, 512, 50, 3,1	Total Tb: ~0.07	
+Experiment Example Images	201712-16_MS_C127_RNAP-S2P-488_DAPI_EdU594_514_07_FUS_SIR_ALN_THR.tif			
+Experiment Imaging Method	structured illumination microscopy (SIM)		
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Comments	3D-SIM, super resolution microscopy
+			
+				
+# assay files				
+Experiment Assay File	idr0086-experimentB-assays.txt			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions	To identify cells in S-phase 10 uM 5-ethenyl-deoxyuridine (EdU) was added 15-30 min before fixation. S phase cells were identified by being positive for EdU pulse labelling.			
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description	All SIM data was routinely and meticulously quality controlled for effective resolution and absence of artifacts using SIMcheck.	
+		
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	Mouse mammary gland C127 cells were grown in Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% FBS, 1% penicillin and streptomycin. Cells were incubated at 37°C, 5% CO2 in a humidified incubator. At 90% confluence cells were trypsinized with 0.05-0.25% Trypsin in PBS or 1x trypsin replacement solution (TrypLE express, Gibco) and passaged to a new culture dish at appropriate dilutions (1:5-1:12 every 2-3 days).	Cells were fixed in 2% formaldehyde/PBS (Sigma, #cat F8775) for 10 min, washed with 0.02% Tween-20/PBS (PBST) and permeabilized in 0.1- 0.5% Triton-X-100/PBS. Coverslips were washed three times with PBST and incubated for 30 min in MaxBlock (Active Motif, cat# 15252). Cells were stained with primary antibodies against the protein of interest, washed three times with PBST and stained with fluorescently-labelled secondary antibodies. After washing, cells were post-fixed in 4% formaldehyde/PBS for 10 min and counterstained using 1-2 ug/?L DAPI or 1 ?M SYTOX Green for 10 min. (Incubation with 1-10 U RNAse I/PBS prior to SYTOX counterstaining was Performed).	3D-SIM images were acquired with a DeltaVision OMX V3 Blaze system (GE Healthcare) equipped with a 60x/1.42 NA PlanApo oil immersion objective (Olympus), pco.edge 5.5 sCMOS cameras (PCO) and 405, 488, 593 and 640 nm lasers. Spherical aberration was minimized using immersion oil with RI 1.514 for sample acquisition. The raw data was computationally reconstructed with SoftWoRx 6.5.2 (GE Healthcare) using channel-specific OTFs recorded using immersion oil with RI 1.512, and Wiener filter settings between 0.002-0.006 to generate 3D stacks of 115 nm (488 nm) or 130 nm (592 nm) lateral and approximately 350 nm axial resolution.
+
+				
+# Phenotypes				
+Phenotype Name	ES - early S phase	MS - mid S phase	LS - late S phase	
+Phenotype Description	Cell have incorporation of EdU throughout the nuclear interior	Cell have incorporation of EdU around the lamina and periphery of heterochromatin regions	Cell have incorporation of EdU within heterochromatin regions	
+Phenotype Score Type	manual	manual	manual	
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name	S phase	S phase	S phase	
+Phenotype Term Accession	GO_0051320	GO_0051320	GO_0051320	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description	
+			
+				
+#  Processed Data Files				
+Processed Data File Name				
+Processed Data File Format	tab-delimited text			
+Processed Data File Description				
+Processed Data Column Name				
+Processed Data Column Type				
+Processed Data Column Annotation Level					
+Processed Data Column Description		
+Processed Data Column Link To Assay File				
+				
+				
+				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
+				
+Experiment Number	3			
+Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentC
+Experiment Sample Type	cell			
+Experiment Description	Micrographs of G1 interphase chromatin of HCT116 cells with and without auxin inducible degradation (AID) of a cohesin subunit with IF on a subset of the previous markers to compare the way the epigenetic regulatory landscape changes when cells are not able to use the cohesin complex to sculpt the 3D chromatin landscape.			
+Experiment Size	5D Images: 92	Average Image Dimension (XYZCT): 512, 512, 45, 3,1	Total Tb: ~0.005	
+Experiment Example Images				
+Experiment Imaging Method	structured illumination microscopy (SIM)			
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Comments	3D-SIM, super resolution microscopy
+			
+				
+# assay files				
+Experiment Assay File	idr0086-experimentC-assays.txt			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions	HCT116 mutant background: Tet-OsTIR1 RAD21-mAID-Halo cell line. For auxin-induced RAD21-degradation, HCT116 cells were cultured in the presence of 5 ?g/mL
+doxycycline (Sigma, D9891) and 500 ?M auxin (Sigma, cat# I5148) for 16 h and 6 h, respectively.			
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description	All SIM data was routinely and meticulously quality controlled for effective resolution and absence of artifacts using SIMcheck.		
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	Human colon carcinoma HCT116 Tet-OsTIR1 cells were cultivated in McCoy's 5A medium supplemented with 10% FBS, 2 mM L glutamine and 1% penicillin and
+streptomycin. Cells were incubated at 37°C, 5% CO2 in a humidified incubator. At 90% confluence cells were trypsinized with 0.05-0.25% Trypsin in PBS or 1x trypsin replacement solution (TrypLE express, Gibco) and passaged to a new culture dish at appropriate dilutions (1:5-1:12 every 2-3 days)."	"Cells were fixed in 2% formaldehyde/PBS (Sigma, #cat F8775) for 10 min, washed with 0.02% Tween-20/PBS (PBST) and permeabilized in 0.1- 0.5% Triton-X-100/PBS. Coverslips were washed three times with PBST and incubated for 30 min in MaxBlock (Active Motif, cat# 15252). Cells were stained with primary antibodies against the protein of interest, washed three times with PBST and stained with fluorescently-labelled secondary antibodies. After washing, cells were post-fixed in 4% formaldehyde/PBS for 10 min and counterstained using 1-2 ug/?L DAPI or 1 ?M SYTOX Green for 10 min. (Incubation with 1-10 U RNAse I/PBS prior to SYTOX counterstaining was Performed).	3D-SIM images were acquired with a DeltaVision OMX V3 Blaze system (GE Healthcare) equipped with a 60x/1.42 NA PlanApo oil immersion objective (Olympus), pco.edge 5.5 sCMOS cameras (PCO) and 405, 488, 593 and 640 nm lasers. Spherical aberration was minimized using immersion oil with RI 1.514 for sample acquisition. The raw data was computationally reconstructed with SoftWoRx 6.5.2 (GE Healthcare) using channel-specific OTFs recorded using immersion oil with RI 1.512, and Wiener filter settings between 0.002-0.006 to generate 3D stacks of 115 nm (488 nm) or 130 nm (592 nm) lateral and approximately 350 nm axial resolution.
+
+				
+# Phenotypes				
+Phenotype Name	G1 interphase			
+Phenotype Description	Cell lacked incorporation of EdU			
+Phenotype Score Type	manual			
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name	G1 phase			
+Phenotype Term Accession	GO_0051318		 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description	
+			
+				
+#  Processed Data Files				
+Processed Data File Name				
+Processed Data File Format	tab-delimited text			
+Processed Data File Description				
+Processed Data Column Name				
+Processed Data Column Type				
+Processed Data Column Annotation Level					
+Processed Data Column Description		
+Processed Data Column Link To Assay File		
+				
+				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
+				
+Experiment Number	4			
+Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentD	
+Experiment Sample Type	cell		
+Experiment Description	Electron Micrographs of the nucleus			
+Experiment Size	5D Images: 11	Average Image Dimension (XYZCT): 900, 600, 400, 1,1	Total Tb: ~0.005	
+Experiment Example Images				
+Experiment Imaging Method	scanning electron microscopy (SEM)			
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	Fbbi_00000257			
+Experiment Comments	FIB-SEM, Focused Ion Beam Scanning Electron Microscopy			
+				
+# assay files				
+Experiment Assay File	idr0086-experimentD-assays.txt			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions	G1 cells were identified by having a smaller nuclear size compared to G2 cells.			
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description	To correct for variations in the FIB milling thickness and ensure isotropic voxel sizes, a rescaling along the milling axis of 75% (HeLa ‘G1’), 140% (HeLa ‘G2’) and 125% (U2-OS) was applied (confirmed by the roundness of outer nuclear pore rings in horizontal planes).			
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	Human epithelial cancer U2OS and cervical cancer HeLa H2B-GFP cells were grown in Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% FBS, 1% penicillin and streptomycin. Cells were incubated at 37°C, 5% CO2 in a humidified incubator. At 90% confluence cells were trypsinized with 0.05-0.25% Trypsin in PBS or 1x trypsin replacement solution (TrypLE express, Gibco) and passaged to a new culture dish at appropriate dilutions (1:5-1:12 every 2-3 days).	Cells grown on sapphire coverslips (3-mm diameter, 0.05-mm thickness; Nanjing Co-Energy Optical Crystal Co.) were subjected to high-pressure freezing using a Compact 01 high-pressure freezer (Wohlwend), followed by freeze-substitution (FS) under liquid N2 in FS medium (2% OsO4, 0.1% uranyl acetate, and 3% water in acetone) using an automated AFS2 machine (Leica Microsystems). Samples were washed immediately after FS three times in anhydrous acetone for a total of 10 min, and embedded in Eponate 12.	FIB-SEM imaging was performed using a customized Zeiss Gemini 500 (HeLa) or Zeiss Merlin (U2-OS) crossbeam system previously described (32). The Zeiss Capella FIB column was repositioned at a 90° angle to the SEM column. The block face was imaged by a 240 pA electron beam with 1.0 keV landing energy at 200 kHz (HeLa) or by a 2 nA electron beam with 1.2 keV landing energy at 500 kHz (U2-OS). The x-y pixel resolution was set at 4 nm (HeLa) and 8 nm (U2-OS). A focused Ga ion beam of 15 nA at 30 keV milled away ~3 nm (HeLa ‘G1’), ~5.6 nm (HeLa ‘G2’), and ~5 nm (U2-OS) of material from the block face for each section (thickness estimated based on the average of SEM working distance and FIB milling voltage). The newly exposed surface was then imaged again. The milling / imaging cycle continued about once every 150 s for one month to capture an entire cell (50 x 8 x 68 ?m3) at 4 nm voxel (HeLa) or every 40 s for 6 days to capture an entire cell (104 x 8 x 42 ?m3) at 8 nm voxel (U2-OS). Each raw image stack was aligned and registered using a scale invariant feature transform (SIFT) plug-in through Fiji, the U2-OS cell volume was further binned by a factor of 2 along the milling axis. A subvolume containing the nucleus was cropped from the whole cell stack for further processing and analysis. Machine learning based segmentation of FIB-SEM data was performed using Ilastik 1.3.3.  
+
+				
+# Phenotypes				
+Phenotype Name	G1 interphase	G2		
+Phenotype Description	Small size nuclear morphology	Large size nucleus morphology		
+Phenotype Score Type	manual	manual		
+Phenotype Term Source REF	CMPO	CMPO		
+Phenotype Term Name	G1 phase	G2 phase		
+Phenotype Term Accession	GO_0051318	GO_0051319	 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description	
+			
+				
+#  Processed Data Files				
+Processed Data File Name			
+Processed Data File Format	tab-delimited text			
+Processed Data File Description				
+Processed Data Column Name				
+Processed Data Column Type				
+Processed Data Column Annotation Level				
+Processed Data Column Description	
+Processed Data Column Link To Assay File				
