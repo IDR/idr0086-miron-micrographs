@@ -106,7 +106,7 @@ Processed Data Column Link To Assay File
 # Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
 				
 Experiment Number	2			
-Comment[IDR Experiment Name]	idr0081-georgi-adenovirus/screenB	
+Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentB	
 Experiment Sample Type	cell		
 Experiment Description	Micrographs of a subset of the markers in experiment A with chromatin of different phenotype due to different stages of cell cycle: early, mid and late S phase as identified by EdU incorporation in nascent replicating regions.  			
 Experiment Size	5D Images: 945	Average Image Dimension (XYZCT): 512, 512, 50, 3,1	Total Tb: ~0.07	
