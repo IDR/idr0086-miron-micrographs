@@ -16,7 +16,7 @@ Study Organism Term Accession	10090	9606
 Study Experiments Number	4			
 Study External URL	
 Study BioImage Archive Accession			
-Study Public Release Date				
+Study Public Release Date	2020-07-22			
 				
 # Study Publication				
 Study PubMed ID				
