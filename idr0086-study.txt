@@ -38,7 +38,7 @@ Study License	CC BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Lothar Schermelleh and Ezequiel Miron			
 Study Data Publisher	University of Dundee			
-Study Data DOI				
+Study Data DOI	https://doi.org/10.17867/10000141			
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -49,6 +49,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 				
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentA	
+Experiment Data DOI	https://doi.org/10.17867/10000141a
 Experiment Sample Type	cell		
 Experiment Description	Micrographs of G1 interphase chromatin of C127 cells with super resolved immunofluorescence (IF) signals of over 16 epigenetic markers (Nascent RNA, Elongating RNAPolII, CTCF, Cohesin subunits, SAF-A and histone modifications such as H3K4me3, H3K27me3, H3K9me3, etc), all from commercially available antibodies.	
 Experiment Size	5D Images: 575	Average Image Dimension (XYZCT): 512,512,45,2,1	Total Tb: ~0.03	
@@ -107,6 +108,7 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	2			
 Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentB	
+Experiment Data DOI	https://doi.org/10.17867/10000141b
 Experiment Sample Type	cell		
 Experiment Description	Micrographs of a subset of the markers in experiment A with chromatin of different phenotype due to different stages of cell cycle: early, mid and late S phase as identified by EdU incorporation in nascent replicating regions.  			
 Experiment Size	5D Images: 945	Average Image Dimension (XYZCT): 512, 512, 50, 3,1	Total Tb: ~0.07	
@@ -167,6 +169,7 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	3			
 Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentC
+Experiment Data DOI	https://doi.org/10.17867/10000141c
 Experiment Sample Type	cell			
 Experiment Description	Micrographs of G1 interphase chromatin of HCT116 cells with and without auxin inducible degradation (AID) of a cohesin subunit with IF on a subset of the previous markers to compare the way the epigenetic regulatory landscape changes when cells are not able to use the cohesin complex to sculpt the 3D chromatin landscape.			
 Experiment Size	5D Images: 92	Average Image Dimension (XYZCT): 512, 512, 45, 3,1	Total Tb: ~0.005	
@@ -227,6 +230,7 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	4			
 Comment[IDR Experiment Name]	idr0086-miron-micrographs/experimentD	
+Experiment Data DOI	https://doi.org/10.17867/10000141d
 Experiment Sample Type	cell		
 Experiment Description	Electron Micrographs of the nucleus			
 Experiment Size	5D Images: 11	Average Image Dimension (XYZCT): 900, 600, 400, 1,1	Total Tb: ~0.005	
