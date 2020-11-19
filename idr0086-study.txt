@@ -19,11 +19,11 @@ Study BioImage Archive Accession
 Study Public Release Date	2020-07-22			
 				
 # Study Publication				
-Study PubMed ID				
+Study PubMed ID	32967822				
 Study Publication Title	Chromatin arranges in chains of mesoscale domains with nanoscale functional topography independent of cohesin			
 Study Author List	Miron E, Oldenkamp R, Brown JM, Pinto DMS, Xu CS, Faria AR, Shaban HA, Rhodes JDP, Innocent C, de Ornellas S, Hess HF, Buckle V, Schermelleh L			
-Study PMC ID				
-Study DOI				
+Study PMC ID	PMC7531892				
+Study DOI	10.1126/sciadv.aba8811			
 				
 # Study Contacts				
 Study Person Last Name	Miron	Schermelleh		
