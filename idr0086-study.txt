@@ -10,9 +10,9 @@ Study Type Term Source REF	CHMO
 Study Type Term Accession	CHMO_0001824			
 Study Description	Three-dimensional (3D) chromatin organization plays a key role in regulating mammalian genome function, however many of its physical features at the single-cell level remain underexplored. Here we use 3D super-resolution and scanning electron microscopy to analyze structural and functional nuclear organization in somatic cells. We identify linked chromatin domains (CDs) composed of irregular ~200-300-nm-wide aggregates of nucleosomes that can overlap with individual topologically associating domains and are distinct from a surrounding RNA-populated interchromatin region. High-content mapping uncovers confinement of cohesin and active histone modifications to surfaces and enrichment of repressive modifications towards the core of CDs in both hetero- and euchromatic regions. This nanoscale functional topography is temporarily relaxed in postreplicative chromatin, but remarkably persists after ablation of cohesin. Our findings establish CDs as physical and functional modules of mesoscale genome organization.		 
 Study Key Words	chromatin	micrograph
-Study Organism	Mus musculus	Homo sapiens		
+Study Organism				
 Study Organism Term Source REF	NCBITaxon			
-Study Organism Term Accession	10090	9606				
+Study Organism Term Accession						
 Study Experiments Number	4			
 Study External URL	
 Study BioImage Archive Accession			
@@ -57,6 +57,9 @@ Experiment Example Images	201712-13_H3K4me3488_DAPI_514_04_FUS_SIR_ALN_THR.tif
 Experiment Imaging Method	structured illumination microscopy (SIM)		
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Organism	Mus musculus	Homo sapiens		
+Experiment Organism Term Source REF	NCBITaxon			
+Experiment Organism Term Accession	10090	9606	
 Experiment Comments	3D-SIM, super resolution microscopy			
 				
 # assay files				
@@ -116,6 +119,9 @@ Experiment Example Images	201712-16_MS_C127_RNAP-S2P-488_DAPI_EdU594_514_07_FUS_
 Experiment Imaging Method	structured illumination microscopy (SIM)		
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Organism	Mus musculus			
+Experiment Organism Term Source REF	NCBITaxon			
+Experiment Organism Term Accession	10090		
 Experiment Comments	3D-SIM, super resolution microscopy
 			
 				
@@ -177,6 +183,9 @@ Experiment Example Images
 Experiment Imaging Method	structured illumination microscopy (SIM)			
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	Fbbi_00000332			
+Experiment Organism	Homo sapiens			
+Experiment Organism Term Source REF	NCBITaxon			
+Experiment Organism Term Accession	9606		
 Experiment Comments	3D-SIM, super resolution microscopy
 			
 				
@@ -238,6 +247,9 @@ Experiment Example Images
 Experiment Imaging Method	scanning electron microscopy (SEM)			
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	Fbbi_00000257			
+Experiment Organism	Homo sapiens			
+Experiment Organism Term Source REF	NCBITaxon			
+Experiment Organism Term Accession	9606		
 Experiment Comments	FIB-SEM, Focused Ion Beam Scanning Electron Microscopy			
 				
 # assay files				
